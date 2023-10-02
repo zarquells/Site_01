@@ -8,7 +8,7 @@ body #contaneir {
     margin: auto;
     width: 400px;
     height: 800px;
-    background: #e2dfdf;
+    background: #f9f8c6;
 }
 #img_fundo {
     width: 400px;
@@ -19,7 +19,7 @@ body #contaneir {
     margin: auto;
     width: 400px;
     height: 800px;
-    background-color: rgb(224, 228, 228);
+    background-color: rgb(255, 255, 255);
 }
 #buscar {
     width: 326px;
@@ -55,6 +55,7 @@ body #contaneir {
     height: 140px;
     margin-top: 60px;
     margin-left: 20px;
+    margin-bottom: 1px;
     border-radius:5px 5px  0 0;
 }
 #folha {
@@ -74,7 +75,7 @@ body #contaneir {
     border-radius:  0 0 5px 5px;
     font-family: 'roboto','sans-serif';
     padding-left: 15px;
-    padding-top: 20px;
+    padding-top: 15px;
     margin-left: 20px;
     margin-top: -8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2),
@@ -82,10 +83,10 @@ body #contaneir {
 }
 #img_praias {
     width: 140px;
-    height: 142px;
+    height: 140px;
     margin-top: -300px;
     margin-left: 180px;
-    margin-bottom: 92px ;
+    margin-bottom: 88px;
     border-radius:  5px 5px 0 0;
 }
 #p_praias {
@@ -96,10 +97,10 @@ body #contaneir {
     background-color: #fff;
     border-radius: 0 0 5px 5px;
     font-family: 'roboto', 'sans-serif';
-    margin-left: 180px;
-    padding-left: 15px;
     padding-top: 15px;
     margin-top: -96px;
+    margin-left: 180px;
+    padding-left: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2),
                 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
@@ -110,14 +111,6 @@ body #contaneir {
     margin-top: -35px;
     margin-bottom: 40px;
     filter: opacity(0.3);
-}
-#img_montanhas {
-    width: 140px;
-    height: 142px;
-    margin-top: -300px;
-    margin-left: 340px;
-    margin-bottom: 92px ;
-    border-radius:  5px 5px 0 0;
 }
 #p_montanhas {
     color: black;
@@ -130,9 +123,17 @@ body #contaneir {
     margin-left: 340px;
     padding-left: 15px;
     padding-top: 15px;
-    margin-top: -96px;
+    margin-top: -77px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2),
                 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+#img_montanhas{
+    width: 140px;
+    height: 140px;
+    margin-top: -300px;
+    margin-left: 340px;
+    margin-bottom: 56px;
+    border-radius:  5px 5px 0 0;
 }
 #footer {
     width: 400px;
@@ -144,12 +145,11 @@ body #contaneir {
     font-size: 16px;
     font-family: 'roboto', 'sans-serif';
     font-weight: bold;
-    color: #ffffff;
     text-transform: uppercase;
-    padding-left: 30px;
+    color: #ffffff;
     padding-top: 25px;
+    padding-left: 30px;
 }
-
 #ret_um {
     width: 2px;
     height: 8px;
@@ -162,24 +162,58 @@ body #contaneir {
     font-size: 12px;
     font-weight: normal;
     color: #cfcfcf;
-    margin: 0px;
     margin-top: -15px;
     margin-left: 50px;
-    width: 100px;
 }
 #ret_doi {
     position: relative;
     width: 2px;
     height: 8px;
-    background-color: #ff0000;
-    margin-top: 25px;
-    bottom: 37px;
+    background-color: #404040;
+    margin-top: 24px;
+    bottom: 35px;
+    left: 219px;
 }
 #p_perguntas {
-    font-size: 12px;
+    position: relative;
     font-family: 'roboto', 'sans-serif';
-    font-weight: nromal;
+    font-size: 12px;
+    font-weight: normal;
     color: #cfcfcf;
-    margin-top: -px;
     margin-left: 230px;
+    bottom: 50px;
+}
+#ret_tre {
+    position: relative;
+    width: 2px;
+    height: 8px;
+    background-color: #404040;
+    top: -34px;
+    right: -219px;
+}
+#ret_qua{
+    position: relative;
+    width: 2px;
+    height: 8px;
+    background-color: #404040;
+    top: -65px;
+    right: -40px;
+}
+#p_vagas {
+    position: relative;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 12px;
+    font-weight: normal;
+    color: #cfcfcf;
+    margin-left: 230px;
+    bottom: 50px;
+}
+#p_meio {
+    font-family: 'roboto', 'sans-serif';
+    font-size: 12px;
+    font-weight: normal;
+    color: #cfcfcf;
+    margin-top: -80px;
+    margin-left: 50px;
+
 }
